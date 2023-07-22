@@ -1,0 +1,197 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+    }
+    header nav{
+        display: flex;
+        padding: 15px 16px ;
+        text-transform: uppercase;
+        align-items: center;
+    }
+    header nav .logo{
+        flex: 1;
+    }
+    header nav .nav_item{
+        flex: 2;
+    }
+    header nav .nav_item ul{
+        display: flex;
+        list-style: none;
+        text-align: center;
+        padding-left:130px;
+    }
+    header nav .nav_item ul li a{
+        font-size: 16px;
+        color: #676868;
+        text-decoration: none;
+        padding: 0px 15px;
+        font-weight: 400;
+        display: flex;
+        justify-content: left;
+    }
+    header nav .login_text a{
+        padding-right: 25px;
+        text-decoration: none;
+        font-size: 16px;
+        color: #1898b8  ;
+        font-weight: 400;
+    }
+    .banner_main{
+        width: 100%;
+        height: auto;
+        background-image: url("/goind/images/banner-bg.png");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .banner_main .banner{
+    padding: 90px 0px;
+    text-align: center;
+    }
+    .banner_main .banner h1{
+    font-size: 60px;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 400;
+    }
+    .banner_main .banner .search{
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    }
+    .banner_main .banner .search input{
+    height: 50px;
+    width: 390px;
+    padding: 15px;
+    font-size: 16px;
+    color: #c3c2c2;
+    border: 0px;
+    background-color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    }
+    .banner_main .banner .search a{
+    background-color: black;
+    font-size: 18px;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: 10px;
+    }
+    .banner_main .banner p{
+    padding-top: 55px;
+    width: 820px;
+    margin: auto;
+    font-weight: 300;
+    color: #fff;
+    }
+    .banner_main .banner .discover_button{
+    padding-top: 60px;
+    }
+    .banner_main .banner .discover_button a{
+    padding: 15px 46px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    text-decoration: none;
+    }
+    .banner_main .banner .discover_button a:hover{
+        background-color: #fff;
+        color: #000;
+        transition: .5s;
+    }
+    main .marketing_job{
+    display: flex ;
+    padding: 90px 15px 0px 15px;
+    justify-content: right;
+}
+main .marketing_job .container_left{
+    width: 550px;
+    padding-right: 50px;
+    text-align: left;
+}
+main .marketing_job .container_left h5{
+    font-size: 46px;
+    color: #252525;
+    font-family: inherit;
+    font-weight: 400;
+    padding-bottom: 30px;
+    
+}
+main .marketing_job .container_left p{
+    font-weight: 300;
+    padding-bottom: 100px;
+}
+main .marketing_job .container_left a{
+    padding: 15px 70px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+
+}
+main .marketing_job .container_left a:hover{
+    background-color: #0c8aba;
+}
+main .marketing_job .container_right .img_container img{
+    width: 690px;
+}
+main .container_left_side{
+    justify-content: left !important; 
+
+}
+main .marketing_job  .text_left_side{
+    padding-left: 50px;
+}
+main .corporate_job{
+    padding: 90px 0px 0px 0px;
+} 
+footer .subscribe{
+    margin-top: 60px;
+    padding: 60px 160px 150px 160px;
+    background-color: #00aeef;
+}
+footer .subscribe h5{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 500;
+    color: #fff;
+    padding-bottom: 10px;
+
+}
+footer .subscribe p{
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    margin: 20px 0px;
+}
+footer .subscribe input{
+    width: 1100px;
+    height: 64px;
+    margin-top: 30px;
+    padding: 10px;
+    font-size: 16px;
+    color: #c3c2c2;
+    border-radius: 20px;
+    border: 0px;
+    position: absolute;
+}
+footer .subscribe a{
+    padding: 15px 72px;
+    background-color: #000;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 20px; 
+    position: relative;
+    left: 872px;
+    top: 50px;
+}
+footer .copyright{
+    padding: 20px 160px 90px 160px;
+    display: flex;
+    justify-content: space-between;
+}
