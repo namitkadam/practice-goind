@@ -9,6 +9,9 @@
         padding: 15px 16px ;
         text-transform: uppercase;
         align-items: center;
+        position: fixed;
+        width: 100%;
+        background-color: #fff;
     }
     header nav .logo{
         flex: 1;
@@ -41,7 +44,7 @@
     .banner_main{
         width: 100%;
         height: auto;
-        background-image: url("/goind/images/banner-bg.png");
+        background-image: url("./images/banner-bg.png");
         background-size: cover;
         display: flex;
         justify-content: center;
@@ -49,6 +52,7 @@
     .banner_main .banner{
     padding: 90px 0px;
     text-align: center;
+    margin-top: 65px    ;
     }
     .banner_main .banner h1{
     font-size: 60px;
@@ -191,7 +195,7 @@ footer .subscribe a{
     top: 50px;
 }
 footer .copyright{
-    padding: 20px 160px 90px 160px;
+    padding: 20px 160px;
     display: flex;
     justify-content: space-between;
 }
